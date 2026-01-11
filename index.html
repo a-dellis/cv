@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сафина Аделина</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="На верх страницы">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Portfolio</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a class="nav__link" href="#about">Обо мне</a>
+        <a class="nav__link" href="#skills">Навыки</a>
+        <a class="nav__link" href="#experience">Опыт</a>
+        <a class="nav__link" href="#education">Образование</a>
+        <a class="nav__link" href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="topbar__actions">
+        <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="Переключить тему">
+          <span id="themeIcon" aria-hidden="true">🌙</span>
+          <span class="hide-sm" id="themeLabel">Тема</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <div class="badge">Project Manager</div>
+          <h1 class="h1">Сафина Аделина</h1>
+
+          <p class="lead">
+            Управляю цифровыми продуктами: веб-разработка и мобильные приложения.
+            Беру проекты “под ключ” — от pre-sale до сдачи.
+          </p>
+
+          <div class="meta">
+            <div class="meta__item">
+              <span class="meta__label">Город</span>
+              <span class="meta__value">Уфа</span>
+            </div>
+            <div class="meta__item">
+              <span class="meta__label">Возраст</span>
+              <span class="meta__value"><span id="age">—</span> лет</span>
+            </div>
+            <div class="meta__item">
+              <span class="meta__label">Формат</span>
+              <span class="meta__value">удалёнка / гибрид</span>
+            </div>
+          </div>
+
+          <div class="cta">
+            <a class="btn" href="#contacts">Связаться</a>
+            <a class="btn btn--ghost" href="#experience">Посмотреть опыт</a>
+          </div>
+
+          <div class="facts">
+            <div class="fact">
+              <div class="fact__num">43</div>
+              <div class="fact__txt">проекта средней сложности<br/>успешно введены в срок</div>
+            </div>
+            <div class="fact">
+              <div class="fact__num">38</div>
+              <div class="fact__txt">человек в команде<br/>управление и коммуникации</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero__right">
+          <div class="card profile"
+            </div>
+
+            <div class="profile__info">
+              <div class="profile__name">Сафина Аделина</div>
+              <div class="profile__role">Project Manager</div>
+
+              <div class="divider"></div>
+
+              <div class="profile__row">
+                <span class="k">Дата рождения</span>
+                <span class="v">08.02.2001</span>
+              </div>
+
+              <div class="profile__row">
+                <span class="k">Телефон</span>
+                <a class="v link" href="tel:+79171234567">+7 (917) 123-45-67</a>
+              </div>
+
+              <div class="profile__row">
+                <span class="k">Email</span>
+                <a class="v link" href="mailto:adelina.safina.pm@gmail.com">adelina.safina.pm@gmail.com</a>
+              </div>
+
+              <div class="profile__row">
+                <span class="k">Локация</span>
+                <span class="v">г. Уфа</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card quick">
+            <div class="quick__title">Коротко обо мне</div>
+            <ul class="checklist">
+              <li>Полный цикл управления проектами</li>
+              <li>Контроль сроков, бюджета, ресурсов</li>
+              <li>Демо, отчётность, коммуникации с заказчиком</li>
+              <li>Agile/Scrum/Kanban + Waterfall</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="h2">Обо мне</h2>
+        <div class="grid-2">
+          <div class="card">
+            <p>
+              Я Project Manager в сфере разработки веб-сервисов и мобильных приложений.
+              Сильна в коммуникации, постановке задач, приоритизации бэклога и доведении проектов до результата.
+            </p>
+            <p class="muted">
+              Готова к рассмотрению удалённых и гибридных форматов работы.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card__title">Чем полезна команде</div>
+            <ul class="bullets">
+              <li>Систематизирую требования: ТЗ, User Stories, roadmap</li>
+              <li>Снижаю риски: сроки, зависимости, ресурсы</li>
+              <li>Выстраиваю прозрачность: статусы, метрики, регулярные демо</li>
+              <li>Помогаю в конфликтах и договариваюсь с заказчиком</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="h2">Ключевые навыки и стек</h2>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="card__title">Управление</div>
+            <div class="tags">
+              <span class="tag">Agile</span>
+              <span class="tag">Scrum</span>
+              <span class="tag">Kanban</span>
+              <span class="tag">Waterfall</span>
+              <span class="tag">SDLC (basic)</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__title">Инструменты</div>
+            <div class="tags">
+              <span class="tag">Jira</span>
+              <span class="tag">Trello</span>
+              <span class="tag">Asana</span>
+              <span class="tag">Confluence</span>
+              <span class="tag">Miro</span>
+              <span class="tag">Draw.io</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__title">Документы и коммуникации</div>
+            <div class="tags">
+              <span class="tag">ТЗ</span>
+              <span class="tag">User Stories</span>
+              <span class="tag">Roadmaps</span>
+              <span class="tag">Отчёты</span>
+              <span class="tag">Демо</span>
+              <span class="tag">Переговоры</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="h2">Опыт работы</h2>
+
+        <div class="card timeline">
+          <div class="timeline__item">
+            <div class="timeline__when">
+              <span class="pill">2024 — 2026</span>
+            </div>
+
+            <div class="timeline__content">
+              <div class="timeline__title">
+                Project Manager
+              </div>
+
+              <ul class="bullets">
+                <li>Полный цикл управления проектами (от pre-sale до сдачи): веб-разработка, мобильные приложения.</li>
+                <li>Составление и контроль сроков, бюджета, ресурсов (Trello, Jira, Asana).</li>
+                <li>Постановка задач команде (38 человек: разработчики, дизайнеры) и приоритизация бэклога.</li>
+                <li>Ежедневная коммуникация с заказчиками, отчётность, проведение демо.</li>
+                <li>Успешное ведение 43 проектов средней сложности в срок.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="h2">Образование</h2>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card__title">Уфимский университет науки и технологий (УУНИТ)</div>
+            <div class="edu">
+              <div class="edu__row">
+                <span class="pill">2024 — 2026</span>
+                <span>Магистратура — Прикладная информатика</span>
+              </div>
+              <div class="edu__row">
+                <span class="pill">2020 — 2024</span>
+                <span>Бакалавриат — Прикладная информатика</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__title">Дополнительно</div>
+            <ul class="bullets">
+              <li>Знания SDLC, базовые принципы UI/UX</li>
+              <li>Навыки презентации и фасилитации встреч</li>
+              <li>Опыт ведения переговоров и решения конфликтов</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacts">
+      <div class="container">
+        <h2 class="h2">Контакты</h2>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card__title">Связаться со мной</div>
+            <div class="contact-list">
+              <a class="contact" href="mailto:adelina.safina.pm@gmail.com">
+                <span class="contact__icon">✉️</span>
+                <span class="contact__text">
+                  <span class="muted">Email</span>
+                  <span>adelina.safina.pm@gmail.com</span>
+                </span>
+              </a>
+
+              <a class="contact" href="tel:+79171234567">
+                <span class="contact__icon">📞</span>
+                <span class="contact__text">
+                  <span class="muted">Телефон</span>
+                  <span>+7 (917) 123-45-67</span>
+                </span>
+              </a>
+
+              <div class="contact">
+                <span class="contact__icon">📍</span>
+                <span class="contact__text">
+                  <span class="muted">Город</span>
+                  <span>Уфа</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <form class="form" id="contactForm">
+              <label class="field">
+                <span>Имя</span>
+                <input type="text" name="name" placeholder="Ваше имя" required />
+              </label>
+
+              <label class="field">
+                <span>Сообщение</span>
+                <textarea name="message" rows="4" placeholder="Напишите сообщение..." required></textarea>
+              </label>
+
+              <button class="btn" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> Сафина Аделина</span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
